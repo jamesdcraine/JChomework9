@@ -1,24 +1,17 @@
 {
-  "name": "jchomework9",
-  "version": "1.0.0",
-  "description": "https://jamesdcraine.github.io/JChomework9/",
-  "main": "app.js",
-  "dependencies": {
-    "cookie-parser": "^1.4.4",
-    "debug": "^4.1.1",
-    "express": "^4.17.1",
-    "http": "0.0.0",
-    "morgan": "^1.9.1",
-    "nodemon": "^2.0.2",
-    "path": "^0.12.7",
-    "router": "^1.3.4",
-    "uniqid": "^5.2.0"
-  },
-  "devDependencies": {},
+  "name": "untitled",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "start-nodemon": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.2",
+    "uniqid": "^5.2.0"
+  }
 }
